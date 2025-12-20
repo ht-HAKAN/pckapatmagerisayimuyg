@@ -1,0 +1,2 @@
+Görsel Programlama dersim için geliştirdiğim küçük bir geri sayım uygulaması. Süreyi Mouse tekerleğini kullanarak ayarlayabilirsiniz.Süre bitiminde PC otomatik olarak kapanır. ( Evet iptal etme seçeneği var =) )<img width="401" height="450" alt="1" src="https://github.com/user-attachments/assets/09cf2cbe-2949-4dc1-8c2d-6984aa55f24a" />
+<img width="398" height="457" alt="2" src="https://github.com/user-attachments/assets/f58fe979-2ef4-4a0f-bd72-092fd3ddccb5" />
