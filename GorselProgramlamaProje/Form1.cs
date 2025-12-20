@@ -74,7 +74,7 @@ namespace GorselProgramlamaProje
 
                 neonRing1.Sure = (int)Math.Ceiling((double)_kalanSaniye / 60);
 
-                lblBilgi.Text = KalanSureYazisi(_kalanSaniye) + "\nKapatmayı iptal etmek için İPTAL ET'e basın.";
+                lblBilgi.Text = KalanSureYazisi(_kalanSaniye) + "\nKapatmayı iptal etmek için İPTAL ET butonuna basın.";
             }
             else
             {
