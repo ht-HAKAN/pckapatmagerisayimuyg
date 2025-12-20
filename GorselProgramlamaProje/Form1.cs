@@ -10,11 +10,14 @@ namespace GorselProgramlamaProje
         private int _kalanSaniye = 0;
         private bool _sayacCalisiyor = false;
         private int _baslangicSaniye = 0;
+        private Color _baslatButonRengi;
 
         public Form1()
         {
             InitializeComponent();
             timer1.Interval = 1000;
+
+            _baslatButonRengi = btnBaslat.BackColor;
 
             neonRing1.MaksimumSure = 24 * 60;
             if (neonRing1.Sure > neonRing1.MaksimumSure)
@@ -51,6 +54,7 @@ namespace GorselProgramlamaProje
                 timer1.Start();
 
                 btnBaslat.Text = "İPTAL ET";
+                btnBaslat.BackColor = Color.FromArgb(200, 92, 92); 
                 neonRing1.Enabled = false;
 
                 lblBilgi.Text = $"Bilgisayarınız {secilenDakika} dakika sonra\notomatik olarak kapatılacak.";
@@ -90,6 +94,7 @@ namespace GorselProgramlamaProje
             ShutdownIptal();
 
             btnBaslat.Text = "BAŞLAT";
+            btnBaslat.BackColor = _baslatButonRengi;
 
             neonRing1.Enabled = true;
             neonRing1.Sure = 0;
